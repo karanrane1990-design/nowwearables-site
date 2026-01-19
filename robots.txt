@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://nowwearables.com/sitemap.xml
