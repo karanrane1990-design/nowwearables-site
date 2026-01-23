@@ -12,7 +12,8 @@
     <title>Now - Proactive Ageing | AI-Powered Mobility</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans:wght@300;400;600&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=IBM+Plex+Mono:wght@400;600&family=Open+Sans:wght@300;400;600&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -34,8 +35,9 @@
         <div class="hero-content split-hero">
             <div class="hero-text">
                 <div class="brand-container">
-                    <h1 class="brand-main">NOW</h1>
-                    <p class="brand-sub">PROACTIVE AGEING</p>
+                    <h1 class="brand-main"
+                        style="background: #C0C0C0; -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
+                        NOW</h1>
                 </div>
                 <p class="hero-subtitle">
                     <strong>Embodied Intelligence for the Longevity Era.</strong><br>
@@ -115,29 +117,56 @@
         </div>
     </section>
 
-    <section id="vision" class="vision-section">
-        <div class="container mobile-reverse">
-            <div class="vision-content">
-                <h2 class="single-line-header">Ageing is a Mobility Challenge</h2>
-                <h3 class="subsection-title">Life Span Vs. Health Span</h3>
-                <div class="chart-container" style="background: transparent; border: none; padding: 0;">
-                    <div class="chart-row">
-                        <div class="chart-label">Standard Lifespan</div>
-                        <div class="chart-bar-bg" style="background: #E0E0E0;">
-                            <div class="chart-bar healthspan-bar" style="width: 60%; background: #404040; color: #fff;">
-                                Healthspan (65)</div>
-                            <div class="chart-bar decline-bar"
-                                style="width: 30%; background: #D0D0D0; border-left: 1px solid #fff;">Decline</div>
-                        </div>
+    <section id="vision" class="kinetic-architecture">
+        <div class="container">
+            <h2 class="section-title text-center" style="margin-bottom: 4rem;">The Architecture of Kinetic Intelligence
+            </h2>
+
+            <div class="tech-loop-grid">
+                <!-- Column 1: Environmental Perception -->
+                <div class="loop-card">
+                    <div class="loop-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                            <circle cx="12" cy="12" r="3" />
+                        </svg>
                     </div>
-                    <div class="chart-row">
-                        <div class="chart-label highlight" style="color: var(--accent-primary);">With Now 1.0</div>
-                        <div class="chart-bar-bg" style="background: #E0E0E0;">
-                            <div class="chart-bar now-bar"
-                                style="width: 90%; background: var(--accent-primary); color: #fff; box-shadow: none;">
-                                Active Healthspan (85+)</div>
-                        </div>
+                    <h3 class="loop-title">The Terrain Loop</h3>
+                    <p class="tech-specs">
+                        On-body Solid-State LiDAR maps 3D space 50x per second. Our Edge-AI deconstructs point-cloud
+                        data to preemptively identify terrain hazards before the user’s center of mass shifts.
+                    </p>
+                </div>
+
+                <!-- Column 2: Biological Integration -->
+                <div class="loop-card">
+                    <div class="loop-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path
+                                d="M4.5 16.5c-1.5 1.26-2 3-2 3s4.5 0 6-1.5M19.5 16.5c1.5 1.26 2 3 2 3s-4.5 0-6-1.5M12 18v-3M12 7V4M9 12l3 3 3-3" />
+                            <path d="M12 11c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4z" />
+                        </svg>
                     </div>
+                    <h3 class="loop-title">The Kinematic Loop</h3>
+                    <p class="tech-specs">
+                        A distributed network of IMU sensors tracks high-fidelity gait kinematics. We fuse
+                        proprioceptive data with real-time vitals to create a Predictive Pacing Model unique to the
+                        user’s immediate physical capacity.
+                    </p>
+                </div>
+
+                <!-- Column 3: Active Autonomy -->
+                <div class="loop-card">
+                    <div class="loop-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
+                        </svg>
+                    </div>
+                    <h3 class="loop-title">The Action Loop</h3>
+                    <p class="tech-specs">
+                        The Agentic Motion Engine modulates torque with millisecond latency. By closing the loop between
+                        reasoning and actuation, NOW 1.0 reduces metabolic cost by 12.5%, restoring natural velocity.
+                    </p>
                 </div>
             </div>
         </div>
